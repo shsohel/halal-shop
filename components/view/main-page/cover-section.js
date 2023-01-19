@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
 import offerPic from '../../../assets/cover01.png';
-import productPC from '../../../assets/Product-01.png';
-import productPC02 from '../../../assets/Product-03.png';
-import productPC01 from '../../../assets/Product-02.png';
+import productPC from '../../../assets/images/products/pc.png';
+import productPC02 from '../../../assets/images/products/shoes-3.png';
+import productPC01 from '../../../assets/images/products/SmallCardProduct_PC.png.thumb.webp';
 import { imageLoader } from '../../../utils/utolity';
 const CoverSection = () => {
   return (
