@@ -64,7 +64,7 @@ function ShopPage() {
               <div className="flex items-center gap-3">
                 <div className="relative block lg:hidden">
                   <button
-                    className="bg-primary p-2 "
+                    className="bg-primary p-2 text-white "
                     onClick={() => {
                       handleOnFocusFilterBtn();
                     }}
@@ -74,7 +74,7 @@ function ShopPage() {
                   <div
                     className={`absolute -right-0 z-10 mt-[0.2rem] ${
                       isFilterOpen ? 'block' : 'hidden'
-                    }   w-64 border border-primary bg-secondary-light p-2 px-4 pb-6 shadow-md shadow-gray-500 sm:right-0 lg:hidden`}
+                    }   w-64 border border-primary bg-white p-2 px-4 pb-6 shadow-md shadow-gray-500 dark:bg-secondary-light sm:right-0 lg:hidden`}
                   >
                     <FilterSection
                       onClose={() => {
