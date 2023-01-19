@@ -1,3 +1,5 @@
+import { useTheme } from 'next-themes';
+import { useEffect } from 'react';
 import Layout from '../components/Layout';
 import MainPage from '../components/view/main-page';
 
@@ -6,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     console.log(theme);
-    setTheme('dark');
+    setTheme('light');
   }, []);
   return (
     <>
